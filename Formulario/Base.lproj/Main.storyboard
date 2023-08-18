@@ -190,8 +190,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="civilstatus" destination="CGw-gV-ghD" id="EHL-id-waf"/>
+                        <outlet property="date" destination="REz-rf-jdx" id="gdq-Ek-Ote"/>
                         <outlet property="email" destination="hLN-QT-bf7" id="hgo-gS-vDi"/>
                         <outlet property="phonenumber" destination="HHy-kR-e1O" id="pee-al-29a"/>
+                        <outlet property="sex" destination="wAU-BW-T4e" id="Edy-b6-nc3"/>
                         <outlet property="sign" destination="yXs-Vn-LeC" id="D6z-II-Cun"/>
                         <outlet property="tin" destination="a6s-uv-Gau" id="fhT-l3-C9H"/>
                     </connections>
