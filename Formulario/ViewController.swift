@@ -4,7 +4,6 @@
 //
 //  Created by Franco Pecci on 2023-08-16.
 //
-
 import UIKit
 
 protocol ValidationDelegate: AnyObject {
@@ -33,7 +32,9 @@ class ViewController: UIViewController, ValidationDelegate, UITextFieldDelegate,
         createPickerView(for: civilstatus, with: maritalStatusOptions)
         email.delegate = self
         phonenumber.delegate = self
+        phonenumber.keyboardType = .numberPad
         tin.delegate = self
+        tin.keyboardType = .numbersAndPunctuation
     }
     
     @IBAction func signButtonTapped(_ sender: UIButton) {
